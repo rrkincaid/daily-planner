@@ -14,6 +14,7 @@ console.log("today");
 
 
 saveButton.on("click", function (event) {
+  event.preventDefault()
 var inputValue = ($(this).siblings("input").val())
   var timeBlock = $(this).attr("class").split(" ")[0]
   console.log(timeBlock)
