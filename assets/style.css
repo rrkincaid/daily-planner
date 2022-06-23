@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(22, 105, 101)
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
@@ -19,7 +20,7 @@ textarea {
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
-}
+}s
 
 .description {
     white-space: pre-wrap;

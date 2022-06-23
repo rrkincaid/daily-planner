@@ -10,6 +10,12 @@ $("#current-day").text(today.format("dddd, MMMM Do YYYY, h:mm:ss a"));
 console.log("today");
 
 
+for (var i = 9; i < 17; i++) {
+  var className = "." + i
+  var timeHour = document.querySelector(className).innerText
+  console.log(timeHour)
+}
+
 
 
 
